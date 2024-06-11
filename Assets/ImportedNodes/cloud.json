@@ -1,0 +1,81 @@
+{
+    "nodeDatas": [
+        {
+            "connections0Name": [
+                "Vector"
+            ],
+            "connections0NodeName": [
+                "ShaderNodeTexNoise.Noise Texture"
+            ],
+            "connections1Name": [],
+            "connections1NodeName": [],
+            "connections2Name": [],
+            "connections2NodeName": [],
+            "connections3Name": [],
+            "connections3NodeName": [],
+            "location": [
+                -569.0582275390625,
+                227.49411010742188
+            ],
+            "name": "ShaderNodeNewGeometry.Geometry"
+        },
+        {
+            "connections0Name": [
+                "Surface"
+            ],
+            "connections0NodeName": [
+                "ShaderNodeOutputMaterial.Material Output"
+            ],
+            "location": [
+                -107.929443359375,
+                176.7744903564453
+            ],
+            "name": "ShaderNodeBrightContrast.Brightness/Contrast",
+            "properties": [
+                "1.0",
+                "1.0",
+                "1.0",
+                "1.0",
+                "0.30000001192092896",
+                "0.0"
+            ]
+        },
+        {
+            "connections0Name": [
+                "Color"
+            ],
+            "connections0NodeName": [
+                "ShaderNodeBrightContrast.Brightness/Contrast"
+            ],
+            "connections1Name": [],
+            "connections1NodeName": [],
+            "location": [
+                -307.7063293457031,
+                200.07810974121094
+            ],
+            "name": "ShaderNodeTexNoise.Noise Texture",
+            "properties": [
+                "3D",
+                "0.0",
+                "10.0",
+                "7.0",
+                "0.4000000059604645",
+                "5.0"
+            ]
+        },
+        {
+            "location": [
+                436.0,
+                300.0
+            ],
+            "name": "NULL.ShaderNodeOutputMaterial.Material Output"
+        },
+        {
+            "name": "EXTRA",
+            "properties": [
+                "True",
+                "False"
+            ]
+        }
+    ]
+}
